@@ -1,0 +1,6 @@
+export { Cube, cubeVariants, type CubeProps } from "./cube"
+export { Sphere, sphereVariants, type SphereProps } from "./sphere"
+export { Cylinder, cylinderVariants, type CylinderProps } from "./cylinder"
+export { Torus, torusVariants, type TorusProps } from "./torus"
+export { Cone, coneVariants, type ConeProps } from "./cone"
+export { Scene, type SceneProps } from "./scene"
