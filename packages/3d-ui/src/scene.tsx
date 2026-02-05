@@ -3,7 +3,7 @@
 import * as React from "react"
 import { Canvas } from "@react-three/fiber"
 import { OrbitControls, Environment, ContactShadows } from "@react-three/drei"
-import { cn } from "@/lib/utils"
+import { cn } from "./utils"
 
 type EnvironmentPreset =
   | "apartment"
