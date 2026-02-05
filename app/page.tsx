@@ -208,8 +208,8 @@ export default function Page() {
                     </CardHeader>
                     <CardContent>
                       <div className="h-48 rounded-lg overflow-hidden">
-                        <Scene controls={false} contactShadows={false}>
-                          <Cube variant={v} animate rotationSpeed={0.005} />
+                        <Scene controls={false} contactShadows={false} cameraPosition={[2, 1.5, 2]}>
+                          <Cube variant={v} animate rotationSpeed={0.005} position={[0, 0, 0]} />
                         </Scene>
                       </div>
                     </CardContent>
@@ -227,8 +227,8 @@ export default function Page() {
                     </CardHeader>
                     <CardContent>
                       <div className="h-48 rounded-lg overflow-hidden">
-                        <Scene controls={false} contactShadows={false}>
-                          <Sphere variant={v} animate rotationSpeed={0.005} />
+                        <Scene controls={false} contactShadows={false} cameraPosition={[2, 1.5, 2]}>
+                          <Sphere variant={v} animate rotationSpeed={0.005} position={[0, 0, 0]} />
                         </Scene>
                       </div>
                     </CardContent>
@@ -246,8 +246,8 @@ export default function Page() {
                     </CardHeader>
                     <CardContent>
                       <div className="h-48 rounded-lg overflow-hidden">
-                        <Scene controls={false} contactShadows={false}>
-                          <Cylinder variant={v} animate rotationSpeed={0.005} />
+                        <Scene controls={false} contactShadows={false} cameraPosition={[2, 1.5, 2]}>
+                          <Cylinder variant={v} animate rotationSpeed={0.005} position={[0, 0, 0]} />
                         </Scene>
                       </div>
                     </CardContent>
@@ -265,8 +265,8 @@ export default function Page() {
                     </CardHeader>
                     <CardContent>
                       <div className="h-48 rounded-lg overflow-hidden">
-                        <Scene controls={false} contactShadows={false}>
-                          <Torus variant={v} animate rotationSpeed={0.005} />
+                        <Scene controls={false} contactShadows={false} cameraPosition={[2, 1.5, 2]}>
+                          <Torus variant={v} animate rotationSpeed={0.005} position={[0, 0, 0]} />
                         </Scene>
                       </div>
                     </CardContent>
@@ -284,8 +284,8 @@ export default function Page() {
                     </CardHeader>
                     <CardContent>
                       <div className="h-48 rounded-lg overflow-hidden">
-                        <Scene controls={false} contactShadows={false}>
-                          <Cone variant={v} animate rotationSpeed={0.005} />
+                        <Scene controls={false} contactShadows={false} cameraPosition={[2, 1.5, 2]}>
+                          <Cone variant={v} animate rotationSpeed={0.005} position={[0, 0, 0]} />
                         </Scene>
                       </div>
                     </CardContent>
