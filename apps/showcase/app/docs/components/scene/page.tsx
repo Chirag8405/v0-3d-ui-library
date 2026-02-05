@@ -11,7 +11,7 @@ export default function SceneDocsPage() {
       <DocsSidebar />
       <main className="flex-1 pl-64">
         <div className="mx-auto max-w-3xl px-8 py-12">
-          <article className="prose prose-neutral max-w-none">
+          <article className="prose prose-invert max-w-none">
             <h1 className="text-4xl font-bold tracking-tight">Scene</h1>
             <p className="text-xl text-muted-foreground mt-4">
               The container component that sets up the 3D canvas, lighting, and controls.
@@ -19,7 +19,7 @@ export default function SceneDocsPage() {
 
             <h2 className="text-2xl font-semibold mt-12 mb-4">Preview</h2>
             <ComponentPreview>
-              <Scene backgroundColor="#fafafa" environment="studio">
+              <Scene backgroundColor="#171717" environment="studio">
                 <Cube variant="primary" animate rotationSpeed={0.005} />
               </Scene>
             </ComponentPreview>
@@ -98,15 +98,6 @@ export function MyScene() {
                 </tbody>
               </table>
             </div>
-
-            <h2 className="text-2xl font-semibold mt-12 mb-4">Environment Presets</h2>
-            <p className="text-muted-foreground mb-4">
-              The following environment presets are available:
-            </p>
-            <CodeBlock>
-{`"apartment" | "city" | "dawn" | "forest" | "lobby" | 
-"night" | "park" | "studio" | "sunset" | "warehouse"`}
-            </CodeBlock>
           </article>
         </div>
       </main>

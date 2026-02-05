@@ -7,7 +7,7 @@ export default function InstallationPage() {
       <DocsSidebar />
       <main className="flex-1 pl-64">
         <div className="mx-auto max-w-3xl px-8 py-12">
-          <article className="prose prose-neutral max-w-none">
+          <article className="prose prose-invert max-w-none">
             <h1 className="text-4xl font-bold tracking-tight">Installation</h1>
             <p className="text-xl text-muted-foreground mt-4">
               How to install and set up the 3D UI component library.

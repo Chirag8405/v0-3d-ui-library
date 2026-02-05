@@ -11,11 +11,13 @@ export function ComponentPreview({ children, className }: ComponentPreviewProps)
   return (
     <div
       className={cn(
-        "relative rounded-lg border border-border bg-background",
+        "not-prose relative rounded-lg border border-border bg-background overflow-hidden h-[400px]",
         className
       )}
     >
-      <div className="h-[400px] w-full">{children}</div>
+      <div className="absolute inset-0">
+        {children}
+      </div>
     </div>
   )
 }

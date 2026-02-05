@@ -3,25 +3,26 @@
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
-import { Box, Circle, Cylinder, Donut, Triangle, Layers } from "lucide-react"
+import { Box, Circle, Cylinder, Donut, Triangle, Layers, Home } from "lucide-react"
 
 const navigation = [
   {
     title: "Getting Started",
     items: [
-      { title: "Introduction", href: "/", icon: Layers },
-      { title: "Installation", href: "/installation", icon: Box },
+      { title: "Home", href: "/", icon: Home },
+      { title: "Introduction", href: "/docs", icon: Layers },
+      { title: "Installation", href: "/docs/installation", icon: Box },
     ],
   },
   {
     title: "Components",
     items: [
-      { title: "Scene", href: "/components/scene", icon: Layers },
-      { title: "Cube", href: "/components/cube", icon: Box },
-      { title: "Sphere", href: "/components/sphere", icon: Circle },
-      { title: "Cylinder", href: "/components/cylinder", icon: Cylinder },
-      { title: "Torus", href: "/components/torus", icon: Donut },
-      { title: "Cone", href: "/components/cone", icon: Triangle },
+      { title: "Scene", href: "/docs/components/scene", icon: Layers },
+      { title: "Cube", href: "/docs/components/cube", icon: Box },
+      { title: "Sphere", href: "/docs/components/sphere", icon: Circle },
+      { title: "Cylinder", href: "/docs/components/cylinder", icon: Cylinder },
+      { title: "Torus", href: "/docs/components/torus", icon: Donut },
+      { title: "Cone", href: "/docs/components/cone", icon: Triangle },
     ],
   },
 ]

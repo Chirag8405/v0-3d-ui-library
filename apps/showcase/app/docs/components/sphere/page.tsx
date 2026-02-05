@@ -11,7 +11,7 @@ export default function SphereDocsPage() {
       <DocsSidebar />
       <main className="flex-1 pl-64">
         <div className="mx-auto max-w-3xl px-8 py-12">
-          <article className="prose prose-neutral max-w-none">
+          <article className="prose prose-invert max-w-none">
             <h1 className="text-4xl font-bold tracking-tight">Sphere</h1>
             <p className="text-xl text-muted-foreground mt-4">
               A sphere primitive with variants, sizes, and animation support.
@@ -19,7 +19,7 @@ export default function SphereDocsPage() {
 
             <h2 className="text-2xl font-semibold mt-12 mb-4">Preview</h2>
             <ComponentPreview>
-              <Scene backgroundColor="#fafafa" environment="studio" cameraPosition={[2, 2, 2]}>
+              <Scene backgroundColor="#171717" environment="studio" cameraPosition={[2, 2, 2]}>
                 <Sphere variant="primary" size="lg" animate rotationSpeed={0.008} />
               </Scene>
             </ComponentPreview>
@@ -45,7 +45,7 @@ export function MySphere() {
 
             <h2 className="text-2xl font-semibold mt-12 mb-4">Variants</h2>
             <ComponentPreview className="mb-4">
-              <Scene backgroundColor="#fafafa" environment="studio" cameraPosition={[5, 2.5, 5]} controls={true}>
+              <Scene backgroundColor="#171717" environment="studio" cameraPosition={[5, 2.5, 5]} controls={true}>
                 <Sphere variant="default" animate position={[-2.5, 0, 0]} rotationSpeed={0.005} />
                 <Sphere variant="primary" animate position={[-0.8, 0, 0]} rotationSpeed={0.005} />
                 <Sphere variant="secondary" animate position={[0.8, 0, 0]} rotationSpeed={0.005} />

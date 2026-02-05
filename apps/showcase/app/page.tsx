@@ -84,7 +84,7 @@ export default function ShowcasePage() {
               </div>
             </div>
             
-            <div className="h-[500px] rounded-2xl border border-border bg-card overflow-hidden">
+            <div className="relative h-[500px] rounded-2xl border border-border bg-card overflow-hidden">
               <Scene backgroundColor="#0a0a0a" environment="city" cameraPosition={[4, 3, 4]}>
                 <Cube variant="primary" animate rotationSpeed={0.005} position={[-1.5, 0, 0]} />
                 <Sphere variant="secondary" animate rotationSpeed={0.008} position={[1.5, 0.5, 0]} color="#06b6d4" />
@@ -123,7 +123,7 @@ export default function ShowcasePage() {
                 key={item.name}
                 className="group relative rounded-xl border border-border bg-card overflow-hidden hover:border-muted-foreground/50 transition-colors"
               >
-                <div className="h-64">
+                <div className="relative h-64">
                   <Scene backgroundColor="#0a0a0a" environment="city" cameraPosition={[2, 1.5, 2]} controls={false} contactShadows={false}>
                     {item.component}
                   </Scene>
