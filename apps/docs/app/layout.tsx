@@ -6,8 +6,8 @@ const geistSans = Geist({ subsets: ["latin"], variable: "--font-geist-sans" })
 const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono" })
 
 export const metadata: Metadata = {
-  title: "3D UI - Beautiful 3D Components for React",
-  description: "A shadcn-style component library for 3D primitives built with React Three Fiber",
+  title: "3D UI - Documentation",
+  description: "Documentation for the 3D UI component library built with React Three Fiber",
 }
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}>
         {children}
       </body>

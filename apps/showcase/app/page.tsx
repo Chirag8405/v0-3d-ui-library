@@ -3,7 +3,7 @@
 import Link from "next/link"
 import { ArrowRight, Github, Box, Zap, Palette, Code2 } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { Scene, Cube, Sphere, Torus, Cylinder, Cone } from "@/components/3d"
+import { Scene, Cube, Sphere, Torus, Cylinder, Cone } from "@3d-ui/components"
 
 export default function ShowcasePage() {
   return (
@@ -212,7 +212,7 @@ export default function ShowcasePage() {
               </div>
               <pre className="p-4 text-sm overflow-x-auto">
                 <code className="text-zinc-300">
-{`import { Scene, Cube, Sphere } from "@/components/3d"
+{`import { Scene, Cube, Sphere } from "@3d-ui/components"
 
 export function MyScene() {
   return (
