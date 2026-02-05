@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@hookform/resolvers':
-        specifier: ^3.9.1
+        specifier: ^3.10.0
         version: 3.10.0(react-hook-form@7.71.1(react@19.2.4))
       '@radix-ui/react-accordion':
         specifier: 1.2.2
@@ -99,7 +99,7 @@ importers:
         specifier: ^9.5.0
         version: 9.5.0(@types/react@19.2.11)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(three@0.182.0)
       autoprefixer:
-        specifier: ^10.4.20
+        specifier: ^10.4.24
         version: 10.4.24(postcss@8.5.6)
       class-variance-authority:
         specifier: ^0.7.1
@@ -129,32 +129,32 @@ importers:
         specifier: ^0.4.6
         version: 0.4.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       react:
-        specifier: ^19
+        specifier: ^19.2.4
         version: 19.2.4
       react-day-picker:
         specifier: 8.10.1
         version: 8.10.1(date-fns@4.1.0)(react@19.2.4)
       react-dom:
-        specifier: ^19
+        specifier: ^19.2.4
         version: 19.2.4(react@19.2.4)
       react-hook-form:
-        specifier: ^7.54.1
+        specifier: ^7.71.1
         version: 7.71.1(react@19.2.4)
       react-resizable-panels:
-        specifier: ^2.1.7
+        specifier: ^2.1.9
         version: 2.1.9(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       recharts:
         specifier: 2.15.0
         version: 2.15.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       sonner:
-        specifier: ^1.7.1
+        specifier: ^1.7.4
         version: 1.7.4(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       tailwind-merge:
-        specifier: ^2.5.5
+        specifier: ^2.6.1
         version: 2.6.1
-      tailwindcss-animate:
-        specifier: ^1.0.7
-        version: 1.0.7(tailwindcss@4.1.18)
+      tailwindcss:
+        specifier: ^4.1.18
+        version: 4.1.18
       three:
         specifier: ^0.182.0
         version: 0.182.0
@@ -162,30 +162,27 @@ importers:
         specifier: ^1.1.2
         version: 1.1.2(@types/react-dom@19.2.3(@types/react@19.2.11))(@types/react@19.2.11)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       zod:
-        specifier: ^3.24.1
+        specifier: ^3.25.76
         version: 3.25.76
     devDependencies:
       '@tailwindcss/postcss':
-        specifier: ^4.1.13
+        specifier: ^4.1.18
         version: 4.1.18
       '@types/node':
-        specifier: ^22
+        specifier: ^22.19.8
         version: 22.19.8
       '@types/react':
-        specifier: ^19
+        specifier: ^19.2.11
         version: 19.2.11
       '@types/react-dom':
-        specifier: ^19
+        specifier: ^19.2.3
         version: 19.2.3(@types/react@19.2.11)
       '@types/three':
         specifier: ^0.182.0
         version: 0.182.0
       postcss:
-        specifier: ^8.5
+        specifier: ^8.5.6
         version: 8.5.6
-      tailwindcss:
-        specifier: ^4.1.13
-        version: 4.1.18
       typescript:
         specifier: 5.7.3
         version: 5.7.3
@@ -1982,11 +1979,6 @@ packages:
 
   tailwind-merge@2.6.1:
     resolution: {integrity: sha512-Oo6tHdpZsGpkKG88HJ8RR1rg/RdnEkQEfMoEk2x1XRI3F1AxeU+ijRXpiVUF4UbLfcxxRGw6TbUINKYdWVsQTQ==}
-
-  tailwindcss-animate@1.0.7:
-    resolution: {integrity: sha512-bl6mpH3T7I3UFxuvDEXLxy/VuFxBk5bbzplh7tXI68mwMokNYd1t9qPBHlnyTwfa4JGC4zP516I1hYYtQ/vspA==}
-    peerDependencies:
-      tailwindcss: '>=3.0.0 || insiders'
 
   tailwindcss@4.1.18:
     resolution: {integrity: sha512-4+Z+0yiYyEtUVCScyfHCxOYP06L5Ne+JiHhY2IjR2KWMIWhJOYZKLSGZaP5HkZ8+bY0cxfzwDE5uOmzFXyIwxw==}
@@ -3821,10 +3813,6 @@ snapshots:
       react: 19.2.4
 
   tailwind-merge@2.6.1: {}
-
-  tailwindcss-animate@1.0.7(tailwindcss@4.1.18):
-    dependencies:
-      tailwindcss: 4.1.18
 
   tailwindcss@4.1.18: {}
 
