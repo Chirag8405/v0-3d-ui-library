@@ -66,9 +66,11 @@ export default function ShowcasePage() {
                   Get Started
                   <ArrowRight className="h-4 w-4" />
                 </Button>
-                <Button size="lg" variant="outline" className="gap-2">
-                  <Github className="h-4 w-4" />
-                  View on GitHub
+                <Button size="lg" variant="outline" className="gap-2" asChild>
+                  <Link href="https://github.com/Chirag8405/v0-3d-ui-library" target="_blank">
+                    <Github className="h-4 w-4" />
+                    View on GitHub
+                  </Link>
                 </Button>
               </div>
               
@@ -254,9 +256,11 @@ export function MyScene() {
               Get Started
               <ArrowRight className="h-4 w-4" />
             </Button>
-            <Button size="lg" variant="outline" className="gap-2">
-              <Github className="h-4 w-4" />
-              Star on GitHub
+            <Button size="lg" variant="outline" className="gap-2" asChild>
+              <Link href="https://github.com/Chirag8405/v0-3d-ui-library" target="_blank">
+                <Github className="h-4 w-4" />
+                Star on GitHub
+              </Link>
             </Button>
           </div>
         </div>

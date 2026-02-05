@@ -71,8 +71,10 @@ export default function ShowcasePage() {
                   </Link>
                 </Button>
                 <Button size="lg" variant="outline" className="gap-2">
+                  <Link href="https://github.com/Chirag8405/v0-3d-ui-library" target="_blank">
                   <Github className="h-4 w-4" />
                   View on GitHub
+                </Link>
                 </Button>
               </div>
               
