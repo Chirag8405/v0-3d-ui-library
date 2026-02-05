@@ -47,7 +47,7 @@ const Scene = React.forwardRef<HTMLDivElement, SceneProps>(
     return (
       <div
         ref={ref}
-        className={cn("w-full h-full min-h-[400px]", className)}
+        className={cn("w-full h-full", className)}
         {...props}
       >
         <Canvas
