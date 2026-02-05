@@ -28,7 +28,7 @@ export default function ShowcasePage() {
           </nav>
           <div className="flex items-center gap-3">
             <Button variant="ghost" size="icon" asChild>
-              <Link href="https://github.com" target="_blank">
+              <Link href="https://github.com/Chirag8405/v0-3d-ui-library" target="_blank">
                 <Github className="h-4 w-4" />
               </Link>
             </Button>
@@ -281,7 +281,7 @@ export function MyScene() {
             <Link href="/docs" className="hover:text-foreground transition-colors">
               Documentation
             </Link>
-            <Link href="https://github.com" className="hover:text-foreground transition-colors">
+            <Link href="https://github.com/Chirag8405/v0-3d-ui-library" className="hover:text-foreground transition-colors">
               GitHub
             </Link>
           </div>
