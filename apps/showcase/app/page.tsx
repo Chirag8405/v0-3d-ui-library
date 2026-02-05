@@ -32,7 +32,9 @@ export default function ShowcasePage() {
                 <Github className="h-4 w-4" />
               </Link>
             </Button>
-            <Button size="sm">Get Started</Button>
+            <Button size="sm" asChild>
+              <Link href="/docs">Get Started</Link>
+            </Button>
           </div>
         </div>
       </header>
@@ -62,9 +64,11 @@ export default function ShowcasePage() {
               </p>
               
               <div className="flex flex-wrap gap-4">
-                <Button size="lg" className="gap-2">
-                  Get Started
-                  <ArrowRight className="h-4 w-4" />
+                <Button size="lg" className="gap-2" asChild>
+                  <Link href="/docs">
+                    Get Started
+                    <ArrowRight className="h-4 w-4" />
+                  </Link>
                 </Button>
                 <Button size="lg" variant="outline" className="gap-2">
                   <Github className="h-4 w-4" />
@@ -195,9 +199,11 @@ export default function ShowcasePage() {
                 Import the components you need and start building. The API follows familiar React patterns
                 with props for variants, sizes, and customization.
               </p>
-              <Button size="lg" className="gap-2">
-                Read the Docs
-                <ArrowRight className="h-4 w-4" />
+              <Button size="lg" className="gap-2" asChild>
+                <Link href="/docs">
+                  Read the Docs
+                  <ArrowRight className="h-4 w-4" />
+                </Link>
               </Button>
             </div>
             
@@ -250,9 +256,11 @@ export function MyScene() {
             Get started with 3D UI today. Copy the components, customize them, and ship beautiful 3D experiences.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Button size="lg" className="gap-2">
-              Get Started
-              <ArrowRight className="h-4 w-4" />
+            <Button size="lg" className="gap-2" asChild>
+              <Link href="/docs">
+                Get Started
+                <ArrowRight className="h-4 w-4" />
+              </Link>
             </Button>
             <Button size="lg" variant="outline" className="gap-2">
               <Github className="h-4 w-4" />
