@@ -66,8 +66,8 @@ export default function ShowcasePage() {
                   Get Started
                   <ArrowRight className="h-4 w-4" />
                 </Button>
-                <Button size="lg" variant="outline" className="gap-2">
-                  <Link href="https://github.com/Chirag8405/v0-3d-ui-library" target="_blank">
+                <Button size="lg" variant="outline" asChild>
+                  <Link href="https://github.com/Chirag8405/v0-3d-ui-library" target="_blank" className="flex items-center gap-2">
                   <Github className="h-4 w-5" />
                   View on GitHub
                 </Link>
